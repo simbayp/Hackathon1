@@ -47,7 +47,7 @@ function createPCard(pType) {
 
     const pInnerHTML = `
         <div class="iContainer">
-            <img src="${pType.sprites.front_default}">
+            <img src=""https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pType.id}.png"">
         </div>
         <div class="about">
             <span class="serial">${pType.id}</span>
